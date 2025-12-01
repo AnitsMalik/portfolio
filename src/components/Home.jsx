@@ -10,7 +10,7 @@ function Home() {
 <div className='bncontentt'>
   <div className='bncontent'>
   <h3>  I'm Anit Malik</h3>
-  <h1>  UX/UI Designer &amp; Front-end Developer  </h1>
+  <h1>  UX/UI Developer  </h1>
 </div>
 </div>
     </div>

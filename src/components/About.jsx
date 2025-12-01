@@ -6,6 +6,7 @@ import "animate.css";
 import ux from "../img/ux.mp4";
 import app_development from "../img/app_development.mp4";
 import usability from "../img/usability.mp4";
+import { colors } from "@mui/material";
 function About() {
   return (
     <div id="about" className="container">
@@ -27,7 +28,7 @@ function About() {
             <div className="hero-content-box">
               <span className="hero_title">I am Anit Malik</span>
               <h3 className="tp-hero-text-1 tp_fade_right text-start display-6">
-                UX/UI Designer & front-end developer
+                UX/UI Developer
               </h3>
               <h1 aria-label="ext-Level Web">
                 Next-Level Web &nbsp;<span className="typewriter"></span>
@@ -158,19 +159,18 @@ function About() {
                       className="ux"
                     ></video>
                   </div>
-                  <div className="card-title">
-                    UX/UI Design
-                    <br /> Intuitive & Engaging Interfaces
-                  </div>
+                  <div className="card-title mt-3 ps-4">
+                    About Me
+                    <br /> <span > UX/UI Develoer</span>
+                      </div>
                 </h2>
 
                 <div className="card-text">
-                  Crafting user-centric designs that enhance engagement and
-                  deliver seamless experiences. From wireframes to high-fidelity
-                  prototypes, I ensure aesthetics meet functionality.
-                </div>
+              I am a UX/UI Developer with 12+ years of experience designing intuitive, user-focused interfaces for enterprise and government applications. My work combines UX thinking with front-end engineering, enabling me to create digital products that are both aesthetically refined and technically strong.
 
-                <ul>
+I focus on building modern, responsive, and accessible user experiences that improve workflow efficiency and deliver measurable value.   </div>
+
+                {/* <ul>
                   <li>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -219,7 +219,7 @@ function About() {
                     </svg>
                     <span className="card-text"> HTML, CSS, JavaScript</span>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </Card.Body>
           </Card>
@@ -238,16 +238,12 @@ function About() {
                       className="ux"
                     ></video>
                   </div>
-                  <div className="card-title">
-                    Front-end Development <br /> Pixel-Perfect, Responsive Code
+                  <div className="card-title mt-4 ps-4">
+                    What I Do
                   </div>
                 </h2>
-                <div className="card-text">
-                  Pixel-Perfect, Responsive Code Bridging the gap between design
-                  and technology with clean, maintainable code. I specialize in
-                  developing fast, responsive, and dynamic web applications.
-                </div>
-                <ul>
+               
+                <ul className="ps-1">
                   <li>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -262,7 +258,7 @@ function About() {
                         d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
                       />
                     </svg>
-                    <span className="card-text"> HTML, CSS, JavaScript</span>
+                    <span className="card-text"> Convert business requirements into clear user flows</span>
                   </li>
                   <li>
                     <svg
@@ -278,7 +274,7 @@ function About() {
                         d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
                       />
                     </svg>
-                    <span className="card-text"> React, Next.js, Bootstrap </span>
+                    <span className="card-text"> Create wireframes, prototypes, and high-fidelity UI </span>
                   </li>
                   <li>
                     <svg
@@ -294,8 +290,73 @@ function About() {
                         d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
                       />
                     </svg>
-                    <span className="card-text"> Performance Optimization</span>
+                    <span className="card-text"> Develop responsive, scalable front-end interfaces</span>
                   </li>
+                   <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> Improve usability, accessibility & interaction patterns</span>
+                  </li>
+                   <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> Optimize legacy UI into modern, efficient systems</span>
+                  </li>
+                   <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> Work seamlessly across design, development & QA</span>
+                  </li>
+                   <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> Digital/Print Design (Marketing materials)</span>
+                  </li>
+                 
                 </ul>
               </div>
             </Card.Body>
@@ -314,18 +375,11 @@ function About() {
                       className="ux"
                     ></video>
                     </div>
-                  <div className="card-title">
-                    End-to-End Solutions
-                    <br /> From Idea to Execution
+                  <div className="card-title mt-4 ps-4" >
+                   Why I Stand Out
                   </div>
-                </h2>
-
-                <div className="card-text">
-                  Combining design thinking with technical expertise to create
-                  digital products that not only look great but also function
-                  flawlessly.
-                </div>
-                <ul>
+                </h2>                
+                <ul className="ps-1">
                   <li>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -340,7 +394,7 @@ function About() {
                         d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
                       />
                     </svg>
-                    <span className="card-text"> UX/UI & Frontend Integration</span>
+                    <span className="card-text"> 12+ years in UX/UI and UI development</span>
                   </li>
 
                   <li>
@@ -357,7 +411,7 @@ function About() {
                         d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
                       />
                     </svg>
-                    <span className="card-text"> Cross-Platform Compatibility</span>
+                    <span className="card-text"> Hybrid expertise: Design + Frontend Engineering</span>
                   </li>
 
                   <li>
@@ -374,7 +428,92 @@ function About() {
                         d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
                       />
                     </svg>
-                    <span className="card-text"> Scalable & Future-Proof Development
+                    <span className="card-text"> Experience with large-scale enterprise systems
+                    </span>
+                  </li>
+                   <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> Skilled with Angular, Flask, Tailwind CSS & PostgreSQL
+                    </span>
+                  </li>
+                   <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> Proven track record in improving user experience
+                    </span>
+                  </li>
+                   <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> Ability to deliver end-to-end product execution
+                    </span>
+                  </li>
+                   <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> Clean, consistent design solutions
+                    </span>
+                  </li>
+                   <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> Production-ready, maintainable UI code
                     </span>
                   </li>
                 </ul>

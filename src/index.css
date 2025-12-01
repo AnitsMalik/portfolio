@@ -799,8 +799,8 @@ nav .menu-btn,
 }
 
 /* -----------About Page css------------ */
-.cardicon{height: 80px;margin-bottom: 25px;margin-top:-10px}
-.cardicon{height: 80px;margin-top:-10px}
+.cardicon{height: 80px;margin-bottom: 5px; }
+.cardicon{height: 80px;display:flex}
 .ux{width: 100px;
     border-radius: 8px;height: 80px;}
     .designer{width: 140px;
@@ -817,15 +817,15 @@ nav .menu-btn,
 
     .cursor-box {       
                 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 1rem;
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* font-size: 1rem; */
         transition: all 0.3s ease;
-        text-align: center;
-        padding: 1rem;
-        position: relative;
-        overflow: hidden;
+        /* text-align: center; */
+        /* padding: 1rem; */
+        /* position: relative;
+        overflow: hidden; */
     }
     
     .cursor-box::before {
@@ -1349,7 +1349,7 @@ animation-iteration-count: 1;
     38.6047%, 43.4419% { content: "Designe"; }
     39.6047%, 42.4419% { content: "Designer"; }
   
-    54.6977%, 75.2093% { content: ""; }
+    /* 54.6977%, 75.2093% { content: ""; }
     55.8372%, 74.0698% { content: "F"; }
     56.9767%, 73.9302% { content: "Fr"; }
     58.1163%, 72.7907% { content: "Fre"; }
@@ -1359,7 +1359,7 @@ animation-iteration-count: 1;
     62.5349%, 68.3721% { content: "Freelan"; }
     63.5349%, 67.3721% { content: "Freelanc"; }
     64.5349%, 66.3721% { content: "Freelance"; }
-    65.5349%, 65.3721% { content: "Freelancer"; }
+    65.5349%, 65.3721% { content: "Freelancer"; } */
   
   }
   
@@ -1434,3 +1434,230 @@ animation-iteration-count: 1;
             margin-top: 4px;
             padding: 10px;
             border-radius: 6px;}
+
+.lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+}
+
+.lightbox-content {
+  background: #fff;
+  padding: 20px;
+  width: 90%;
+  max-width: 900px;
+  border-radius: 10px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.lightbox-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 12px;
+}
+
+.lightbox-thumb {
+  width: 100%;
+  border-radius: 6px;
+  cursor: zoom-in;
+  object-fit: cover;
+}
+
+.zoom-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3000;
+}
+
+.zoom-image {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px;
+  cursor: zoom-out;
+}
+/* Position relative container so arrows align properly */
+.slider-container {
+  position: relative;
+}
+
+/* Common arrow styles */
+.custom-arrow {
+  position: absolute;
+  top: 50%;                     /* center vertically */
+  transform: translateY(-50%);  /* perfect centering */
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 10px 14px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+  z-index: 5;                   /* ensure above slider */
+  transition: 0.3s ease;
+}
+
+/* Hover effect */
+.custom-arrow:hover {
+  background: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+/* Left arrow */
+.custom-arrow.prev {
+  left: -25px;                  /* adjust left position */
+}
+
+/* Right arrow */
+.custom-arrow.next {
+  right: -25px;                 /* adjust right position */
+}
+
+/* Responsive fix for mobile */
+@media (max-width: 768px) {
+  .custom-arrow.prev {
+    left: -10px;
+  }
+
+  .custom-arrow.next {
+    right: -10px;
+  }
+}
+.zoom-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+}
+
+.zoom-inner {
+  position: relative;
+}
+
+.zoom-image {
+  max-width: 85vw;
+  max-height: 85vh;
+  border-radius: 8px;
+}
+
+.zoom-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  border: none;
+  padding: 10px 14px;
+  font-size: 22px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: bold;
+  z-index: 2100;
+  animation: forwards;
+}
+
+.zoom-nav.prev {
+  left: -50px;
+}
+
+.zoom-nav.next {
+  right: -50px;
+}
+
+.zoom-nav:hover {
+  background: #007bff;
+  color: white;
+}.fade-in {
+  animation: fadeIn 0.35s ease-out;
+}
+
+.fade-in {
+  animation: fadeIn 0.35s ease-out;
+}
+.zoom-animate {
+  animation: zoomIn 0.4s ease-out forwards;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.slide-left {
+  animation: slideLeft 0.35s ease forwards;
+}
+.slide-right {
+  animation: slideRight 0.35s ease forwards;
+}
+
+@keyframes slideLeft {
+  from { transform: translateX(50%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideRight {
+  from { transform: translateX(-50%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+/* 2) Thumbnail Hover Glow + Scale
+------------------------------------*/
+.lightbox-thumb {
+  transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
+}
+.lightbox-thumb:hover {
+  transform: scale(1.08);
+  filter: brightness(1.15);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* 3) Blur → Sharp Transition (when opening fullscreen)
+----------------------------------------------------------*/
+.zoom-image {
+  filter: blur(6px);
+  animation: sharpen 0.45s ease forwards;
+}
+
+@keyframes sharpen {
+  from { filter: blur(6px); }
+  to { filter: blur(0px); }
+}
+
+/* 4) Bounce-in Animation
+---------------------------*/
+.zoom-animate {
+  animation: bounceIn 0.45s ease;
+}
+
+@keyframes bounceIn {
+  0% { transform: scale(0.5); opacity: 0; }
+  60% { transform: scale(1.1); opacity: 1; }
+  100% { transform: scale(1); }
+}
+
+/* 5) Dark Mode Transition Effect
+------------------------------------*/
+.zoom-overlay,
+.lightbox-overlay {
+  transition: background 0.5s ease;
+}
+.dark-mode .zoom-overlay,
+.dark-mode .lightbox-overlay {
+  background: rgba(0,0,0,0.92);
+}
+

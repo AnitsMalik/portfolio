@@ -33,13 +33,61 @@ function Skills() {
                       type="ux/mp4"
                       className="ux"
                     ></video>
-                  </div>
-                  <h5 className="card-title">UX/UI Design</h5>
+                     <h5 className="card-title mt-4 ps-2">UX/UI Design skills</h5>
+                  </div>                 
                   <p className="card-text">
-                    With expertise in UX/UI design, user research, interaction
-                    design, information architecture, usability testing, and
-                    visual design, I craft seamless product experiences.
+                   I design clean, intuitive, and user-focused digital interfaces that prioritize usability, clarity, and visual consistency. My work blends creative UI with structured UX methodology.
                   </p>
+                      <ul className="ps-1">
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> User-centered design</span>
+                  </li>
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> Visual interface creation </span>
+                  </li>
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> Layout & design systems</span>
+                  </li> 
+                      </ul>
                 </div>
               </div>
             </div>
@@ -55,13 +103,62 @@ function Skills() {
                       type="designer/mp4"
                       className="ux"
                     ></video>
+                      <h5 className="card-title">Wireframing & Prototyping</h5>
                   </div>
-                  <h5 className="card-title">Graphic Designer</h5>
+                
                   <p className="card-text">
-                    Creative Graphic Designer with expertise in branding, visual
-                    storytelling, and user-centric design to craft compelling
-                    and impactful experiences.
+                   I convert ideas into structured wireframes and interactive prototypes, helping teams visualize functionality and user flows early.
                   </p>
+                  <ul className="ps-1">
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> Low/high-fidelity wireframes</span>
+                  </li>
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> Interactive prototypes </span>
+                  </li>
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> User flow mapping</span>
+                  </li> 
+                  </ul>
                 </div>
               </div>
             </div>
@@ -77,13 +174,62 @@ function Skills() {
                       type="web_developer/mp4"
                       className="ux"
                     ></video>
+                    <h5 className="card-title">Frontend Development</h5>
                   </div>
-                  <h5 className="card-title">Web Development</h5>
+                  
                   <p className="card-text">
-                    Skilled in web development, creating responsive,
-                    user-friendly websites with clean code, CMS integration, and
-                    optimal performance.
+                  I build responsive, scalable, and modern UI components for enterprise apps using the latest front-end technologies.
                   </p>
+                         <ul className="ps-1">
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> React, Flask, Angular, JavaScript</span>
+                  </li>
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> HTML5, CSS3 </span>
+                  </li>
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> Bootstrap & Tailwind CSS</span>
+                  </li> 
+                  </ul>
                 </div>
               </div>
             </div>
@@ -99,12 +245,62 @@ function Skills() {
                       type="cms/mp4"
                       className="ux"
                     ></video>
+                      <h5 className="card-title">Backend & API Integration </h5>
                   </div>
-                  <h5 className="card-title">CMS Websites </h5>
+                
                   <p className="card-text">
-                    Experienced in designing and managing CMS websites for
-                    seamless content creation and user engagement.
+                    I integrate UI with backend logic using Flask and REST APIs, ensuring smooth data flow and secure application interactions.
                   </p>
+                    <ul className="ps-1">
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> Python Flask</span>
+                  </li>
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> REST API handling</span>
+                  </li>
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> Authentication & CRUD workflows</span>
+                  </li> 
+                  </ul>
                 </div>
               </div>
             </div>
@@ -122,12 +318,47 @@ function Skills() {
                       type="seo/mp4"
                       className="ux"
                     ></video>
+                     <h5 className="card-title">Database Management</h5>
                   </div>
-                  <h5 className="card-title">SEO & Google Analytics</h5>
+                  
                   <p className="card-text">
-                    With supporting text below as a natural lead-in to
-                    additional content.
+                    I design and manage relational databases with optimized schemas and efficient query structures for stable application performance.
                   </p>
+                    <ul className="ps-1">
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> PostgreSQL</span>
+                  </li>
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> Data modeling & schema design</span>
+                  </li>
+                 
+                  </ul>
                 </div>
               </div>
             </div>
@@ -143,13 +374,62 @@ function Skills() {
                       type="web_security/mp4"
                       className="ux"
                     ></video>
+                     <h5 className="card-title">CMS Development</h5>
                   </div>
-                  <h5 className="card-title">Web Securities</h5>
+                 
                   <p className="card-text">
-                    Experienced in web security, implementing best practices to
-                    protect websites from vulnerabilities, threats, and
-                    unauthorized access.
+                  I customize and manage CMS platforms to build dynamic, fast, and secure websites with custom themes.
                   </p>
+                    <ul className="ps-1">
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> WordPress & Drupal</span>
+                  </li>
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> Hosting & domain setup</span>
+                  </li>
+                 <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> Website maintenance & optimization</span>
+                  </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -165,13 +445,78 @@ function Skills() {
                       type="video_editing/mp4"
                       className="ux"
                     ></video>
+                      <h5 className="card-title">Tools & Platforms</h5>
                   </div>
-                  <h5 className="card-title">Video Editing & Tutorilas</h5>
+                
                   <p className="card-text">
-                    Skilled in video editing and creating engaging tutorials
-                    with smooth transitions, visual effects, and clear
-                    storytelling.
+                   I use modern design, development, and productivity tools to deliver seamless, high-quality project outcomes.
                   </p>
+                    <ul className="ps-1">
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> Figma, Adobe XD, Photoshop</span>
+                  </li>
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> Git, VS Code, Visual Studio</span>
+                  </li>
+                 <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> Deployment & hosting tools</span>
+                  </li>
+                   <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> CorelDraw, Captivate, Filmora</span>
+                  </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -187,13 +532,62 @@ function Skills() {
                       type="hosting/mp4"
                       className="ux"
                     ></video>
+                     <h5 className="card-title">Accessibility & Usability </h5>
                   </div>
-                  <h5 className="card-title">Hosting & Domain </h5>
+                 
                   <p className="card-text">
-                    Experienced in domain registration and web hosting
-                    management, ensuring secure, reliable, and high-performance
-                    website deployment.
+                   I apply usability principles and WCAG guidelines to ensure inclusive, accessible, and user-friendly digital experiences.
                   </p>
+                   <ul className="ps-1">
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> UX- Mockup, Wireframing</span>
+                  </li>
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> Usability testing</span>
+                  </li>
+                 <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="#8750f7"
+                      className="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                      />
+                    </svg>
+                    <span className="card-text"> WCAG compliance</span>
+                  </li>
+                  </ul>
                 </div>
               </div>
             </div>
