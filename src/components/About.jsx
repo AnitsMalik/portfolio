@@ -7,6 +7,8 @@ import ux from "../img/ux.mp4";
 import app_development from "../img/app_development.mp4";
 import usability from "../img/usability.mp4";
 import { colors } from "@mui/material";
+import resume from "../img/anitmalikUXUI.pdf";
+
 function About() {
   return (
     <div id="about" className="container">
@@ -28,7 +30,7 @@ function About() {
             <div className="hero-content-box">
               <span className="hero_title">I am Anit Malik</span>
               <h3 className="tp-hero-text-1 tp_fade_right text-start display-6">
-                UX/UI Developer
+                UX/UI Designer & Front-End Developer
               </h3>
               <h1 aria-label="ext-Level Web">
                 Next-Level Web &nbsp;<span className="typewriter"></span>
@@ -44,23 +46,26 @@ function About() {
                 analytical skills to contribute to a successful collaboration
               </div>
               <div className="button_box d-flex flex-wrap align-items-center">
-                <a
-                  href="../img/anitmalik_resume.pdf"
-                  className="xbtn resbtn gap-2"
-                >
-                  RESUME{" "}
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    fill="currentColor"
-                    className="resumebtn bi bi-download"
-                    viewBox="0 0 16 16"
-                  >
-                    <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5" />
-                    <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z" />
-                  </svg>
-                </a>
+               <a
+  href={resume}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="xbtn resbtn gap-2"
+>
+  RESUME
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    fill="currentColor"
+    className="resumebtn bi bi-download"
+    viewBox="0 0 16 16"
+  >
+    <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5" />
+    <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z" />
+  </svg>
+</a>
+
                 <ul className="d-flex gap-4 mt-3">
                   <li className="socail_icon">
                     <a href="www.linkedin.com/in/anitmalik">
@@ -161,12 +166,12 @@ function About() {
                   </div>
                   <div className="card-title mt-3 ps-4">
                     About Me
-                    <br /> <span > UX/UI Develoer</span>
+                    <br /> <span > UX/UI Designer & Front-End Developer</span>
                       </div>
                 </h2>
 
                 <div className="card-text">
-              I am a UX/UI Developer with 12+ years of experience designing intuitive, user-focused interfaces for enterprise and government applications. My work combines UX thinking with front-end engineering, enabling me to create digital products that are both aesthetically refined and technically strong.
+              I am a UX/UI Designer & Front-End Developer with 12+ years of experience designing intuitive, user-focused interfaces for enterprise and government applications. My work combines UX thinking with front-end engineering, enabling me to create digital products that are both aesthetically refined and technically strong.
 
 I focus on building modern, responsive, and accessible user experiences that improve workflow efficiency and deliver measurable value.   </div>
 
@@ -394,7 +399,7 @@ I focus on building modern, responsive, and accessible user experiences that imp
                         d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
                       />
                     </svg>
-                    <span className="card-text"> 12+ years in UX/UI and UI development</span>
+                    <span className="card-text"> 12+ years in UX/UI Designer & Front-End Developer</span>
                   </li>
 
                   <li>

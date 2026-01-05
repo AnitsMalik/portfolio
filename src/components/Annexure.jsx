@@ -2,6 +2,9 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Slider from "react-slick";
 //import mcit_1 from "../mockups/mcit/mcit_1.jpg";
+
+
+
 function importAll(r) {
   return r.keys().map(r);
 }
@@ -10,8 +13,12 @@ function Annexure() {
   require.context("../public/mockups/mcit", false, /\.(png|jpe?g|svg|webp)$/)
 );
 
-const oldcastleMockups = importAll(
-  require.context("../public/mockups/oldcastle", false, /\.(png|jpe?g|svg|webp)$/)
+const pyramid = importAll(
+  require.context("../public/mockups/pyramid", false, /\.(png|jpe?g|svg|webp)$/)
+);
+
+const Acyutah = importAll(
+  require.context("../public/mockups/acyutah", false, /\.(png|jpe?g|svg|webp)$/)
 );
 
 const icmrMockups = importAll(
@@ -49,50 +56,80 @@ const icmrMockups = importAll(
   const projects = [
     {
       id: 1,
+      title: "ICMR–NICPR",
+      company: "Ministry of Health and Family Welfare, Government of India",
+      duration: "Feb 2021 – Present",
+      desc: "Manage and maintain all organizational websites, portals, domains, and hosting environments.",
+      tech: ["Python Flask", "WordPress", "React", "Tailwind"],
+      role: ["IT Consultant", "Built Patient Management", "Improved UI architecture"],
+      mockups: icmrMockups,
+      link: "https://nicpr.org/"
+    },
+    
+    {
+      id: 2,
+      title: "Pyramid It Consulting Pvt. Ltd.",
+      company: "Pyramid it consulting, Celsior Technologies",
+      duration: "2020 – 2021",
+      desc: "PyramidCore 2.0, iRecruite, Customer Portal, ",
+      tech: ["Angular", "Bootstrap", "HTML", "CSS"],
+      role: ["Senior Software Engineer", "UX/UI Designer", "Front-end Developer"],
+      mockups: pyramid,
+      link: "https://pyramidci.com/",
+    },
+    {
+      id: 3, 
+      title: "Acyutah",
+      company: "Acyutah Pvt. Ltd.",
+      duration: "2019 – 2020",
+      desc: "Enterprise ECM solution mapping using DMS, BPM, Capture and Cloud workflows for multiple ministries.",
+      tech: ["WordPress", "Market Materials", "Angular", "HTML"],
+      role: ["Senior Software Engineer", "UX/UI Designer", "Front-end Developer"],
+      mockups: Acyutah,
+      link: "/login",
+    },
+    {
+      id: 4,
       title: "MCIT Ethiopia",
       company: "Ministry of Communication & IT, Ethiopia",
       duration: "2018 – 2019",
       desc: "Enterprise ECM solution mapping using DMS, BPM, Capture and Cloud workflows for multiple ministries.",
       tech: ["Angular", "ECM", "BPM", "Cloud"],
-      role: ["Designed UI workflows", "Built dashboard modules", "Improved UX architecture"],
-      mockups: mcitMockups,
-      link: "/login"
-    },
-    
-    {
-      id: 2,
-      mockups: oldcastleMockups,
-      link: "/login",
-    },
-    {
-      id: 3, 
-      mockups: [
-        "/mockups/icmr/icmr_1.jpg",
-        "/mockups/icmr/icmr_2.jpg"
-      ],
-      link: "/login",
-    },
-    {
-      id: 4,
-      title: "FineDocs ECM Suite",
+      role: ["Designed UI workflows", "Built dashboard modules", "Improved UX architecture"],     
       desc: "Document management platform for banking, telecom, healthcare with automated workflows and secure modules.",
+      mockups: mcitMockups,
       link: "/login",
     },
     {
       id: 5,
-      title: "Ericsson Spark USA",
+      title: "MCIT Ethiopia",
+      company: "Ministry of Communication & IT, Ethiopia",
+      duration: "2018 – 2019",
+      desc: "Enterprise ECM solution mapping using DMS, BPM, Capture and Cloud workflows for multiple ministries.",
+      tech: ["Angular", "ECM", "BPM", "Cloud"],
+      role: ["Designed UI workflows", "Built dashboard modules", "Improved UX architecture"],      
       desc: "UI/UX development for enterprise ICT platform, improving interaction flows and usability for global teams.",
       link: "/login",
     },
     {
       id: 6,
-      title: "PyramidCore Application",
+      title: "MCIT Ethiopia",
+      company: "Ministry of Communication & IT, Ethiopia",
+      duration: "2018 – 2019",
+      desc: "Enterprise ECM solution mapping using DMS, BPM, Capture and Cloud workflows for multiple ministries.",
+      tech: ["Angular", "ECM", "BPM", "Cloud"],
+      role: ["Designed UI workflows", "Built dashboard modules", "Improved UX architecture"],      
       desc: "Enterprise login and workflow system for employee & associate access to internal tools and resources.",
       link: "/login",
     },
     {
       id: 7,
-      title: "Emcure Pharmaceuticals",
+      title: "MCIT Ethiopia",
+      company: "Ministry of Communication & IT, Ethiopia",
+      duration: "2018 – 2019",
+      desc: "Enterprise ECM solution mapping using DMS, BPM, Capture and Cloud workflows for multiple ministries.",
+      tech: ["Angular", "ECM", "BPM", "Cloud"],
+      role: ["Designed UI workflows", "Built dashboard modules", "Improved UX architecture"],      
       desc: "UI/UX development for global pharma product modules and digital communication dashboards.",
       link: "/login",
     },
@@ -150,26 +187,35 @@ const icmrMockups = importAll(
       </section>
 
       {/* Lightbox Modal */}
-      {activeProject && (
-        <div className="lightbox-overlay" onClick={() => setActiveProject(null)}>
-          <div className="lightbox-content" onClick={(e) => e.stopPropagation()}>
-            <h5 className="mb-3 fw-bold">{activeProject.title} – Mockups</h5>
-            <div className="lightbox-grid">
-              {activeProject.mockups?.map((img, idx) => (
-                <img
-                  key={idx}
-                  src={img}
-                  alt="mockup"
-                  className="lightbox-thumb"
-                  onClick={() => setLightboxImage(img)}
-                />
-              ))}
-            </div>
-            <button className="btn btn-dark mt-3" onClick={() => setActiveProject(null)}>Close</button>
-          </div>
-        </div>
-      )}
+    {activeProject && (
+  <div className="lightbox-overlay" onClick={() => setActiveProject(null)}>
+    <div className="lightbox-content" onClick={(e) => e.stopPropagation()}>
 
+      {/* Close Button (Top Right) */}
+      <button 
+        className="close-btn" 
+        onClick={() => setActiveProject(null)}
+      >
+        ✖
+      </button>
+
+      <h5 className="mb-3 fw-bold zoomtitle">{activeProject.title} – Mockups</h5>
+
+      <div className="lightbox-grid">
+        {activeProject.mockups?.map((img, idx) => (
+          <img
+            key={idx}
+            src={img}
+            alt="mockup"
+            className="lightbox-thumb"
+            onClick={() => setLightboxImage(img)}
+          />
+        ))}
+      </div>
+
+    </div>
+  </div>
+)}
       {/* Fullscreen Image Zoom */}
     {lightboxImage && (
   <div className="zoom-overlay" onClick={() => setLightboxImage(null)}>
